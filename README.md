@@ -20,16 +20,9 @@ clasificación, duración y géneros.
 ## Insights principales
 
 ### Movies vs TV Shows
-[descripción breve + imagen]
-
 ### Top países productores de contenido
-[descripción breve + imagen]
-
 ### Crecimiento del catálogo por año
-[descripción breve + imagen]
-
 ### Géneros más comunes
-[descripción breve + imagen]
 
 ## Cómo correrlo
 ```bash
