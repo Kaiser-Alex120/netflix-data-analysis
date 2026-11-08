@@ -1,4 +1,4 @@
-# Vamos a limpiar los datos y obtenerlos para limpiarlos y obtenerlos para su posterior análisis.
+# Vamos a limpiar los datos  para su posterior análisis.
 
 from pathlib import Path   # Nos ayuda a construir rutas de archivos de forma segura (funciona en Windows, Mac, Linux)
 import pandas as pd        # Librería principal para manejar datos en tablas (DataFrames)
