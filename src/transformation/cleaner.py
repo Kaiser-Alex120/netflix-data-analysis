@@ -83,30 +83,23 @@ df['month_added'] = df['date_added'].dt.month
 
 
 
-
-# Confirmar los tipos de datos finales (clave: date_added debe ser datetime, duration_int debe ser float)
-print("Tipos de datos:")
-print(df.dtypes)
-print()
-
-# 4. Confirmar que date_added se convirtió bien (revisa que no haya NaT en exceso)
+#  Confirmar que date_added se convirtió bien (revisa que no haya NaT en exceso)
 print("Nulos en date_added tras conversión:", df['date_added'].isna().sum())
 print("Rango de fechas:", df['date_added'].min(), "a", df['date_added'].max())
 print()
 
-# 5. Confirmar que duration se separó correctamente
+# Confirmar que duration se separó correctamente
 print("Ejemplo de duration separada:")
 print(df[['duration', 'duration_int', 'duration_type']].head(5))
 print()
 
-# 6. Confirmar valores únicos de duration_type (debería ser solo 'min', 'Season', 'Seasons')
+# Confirmar valores únicos de duration_type (debería ser solo 'min', 'Season', 'Seasons')
 print("Valores únicos en duration_type:", df['duration_type'].unique())
 print()
 
-# 7. Forma final del DataFrame
+# Forma final del DataFrame
 print("Forma final (filas, columnas):", df.shape)
 print()
-
 # 8. Vista general de las primeras filas
 print(df.head(3))
 
